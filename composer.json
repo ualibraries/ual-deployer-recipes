@@ -1,0 +1,28 @@
+{
+    "name": "deployer/ual-recipes",
+    "description": "3rd party deployer recipes",
+    "type": "library",
+    "keywords": [
+        "symfony2importdb"
+    ],
+    "homepage": "https://github.com/deployphp/recipes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Medvedev",
+            "email": "anton@medv.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    },
+    "replace": {
+        "deployer/ual-recipes": "self.version"
+    },
+    "require-dev": {
+        "deployer/deployer": "^6.3"
+    }
+}
